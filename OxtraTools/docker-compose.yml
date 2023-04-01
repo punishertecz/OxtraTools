@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  OxtraTools:
+    container_name: OxtraTools
+    build: .
+    volumes:
+      - ./output:/home/OxtraTools/output
